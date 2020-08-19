@@ -2,5 +2,6 @@
   <h1>All Categories</h1>
   <% @categories.each do |category| %>
     <%= link_to  category.title, "/#{category.slug}" %>
+    <br>
   <% end %>
 </div>
